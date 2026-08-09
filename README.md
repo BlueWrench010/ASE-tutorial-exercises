@@ -2,3 +2,5 @@ I used the effective medium theory (EMT) calculator to calculate potential energ
 The EMT calculator is a classical semi-empirical method designed for quick tests with face-centered cubic metals. It is explicitly stated in the link referencing EMT that it is not intended for an element such as nitrogen.
 I did the calculation with EMT anyway and it should not come as a surprise that the results deviate somewhat from expected values. I got an equilibrium bond length of 1.00 Å and a dissociation energy of 9.94 eV. 
 The dissociation energy was calculated by subtracking: last index of potential energy - minimum potential energy.
+
+(I am not taking credit for the code it was written by someone from [https://docs.ase-lib.org/examples_generated/01-gettingstarted/01-atoms-and-calculators.html](url))
