@@ -8,4 +8,5 @@ The dissociation energy was calculated by subtracking: last index of potential e
 (I am not taking credit for the code it was written by someone from [https://docs.ase-lib.org/examples_generated/01-gettingstarted/01-atoms-and-calculators.html](url))
 
 **Water structure optimization**
+
 Originally I wanted to follow an ASE tutorial on water structure optimization that uses the GPAW calculator. Unfortunately I could not figure out how to install it so I just used EMT. On the plus side since I could not get GPAW to work I did not follow the ASE tutorial very closely and most of the code I wrote this time is original and probably kind of bad. But as of right now I am somewhat proud of my own water structure optimization. I set a convergence criteria of 0.1 eV and I got an O-H bond length of 1.11 Å and H-O-H bond angle of 104.81 degrees. I would say this is pretty good considering the calculator I used and the crude way in which I set up the optimization.
